@@ -83,5 +83,8 @@
     "typescript": "^5.4.2",
     "vite": "^5.1.6",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "refine": {
+    "projectId": "MaeDGg-QfvZtm-8H5bo1"
   }
 }

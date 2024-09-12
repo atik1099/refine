@@ -113,7 +113,7 @@ export const SalesEditPage = () => {
   };
 
   return (
-    <Modal
+    (<Modal
       {...modalProps}
       onCancel={() => {
         close();
@@ -201,6 +201,6 @@ export const SalesEditPage = () => {
           />
         </Form.Item>
       </Form>
-    </Modal>
+    </Modal>)
   );
 };

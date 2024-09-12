@@ -77,7 +77,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <AlgoliaSearchWrapper>
+    (<AlgoliaSearchWrapper>
       <BrowserRouter>
         <ConfigProvider theme={themeConfig}>
           <AntdApp>
@@ -93,6 +93,7 @@ const App: React.FC = () => {
                   liveMode: "auto",
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
+                  projectId: "MaeDGg-QfvZtm-8H5bo1"
                 }}
               >
                 <Routes>
@@ -291,7 +292,7 @@ const App: React.FC = () => {
           </AntdApp>
         </ConfigProvider>
       </BrowserRouter>
-    </AlgoliaSearchWrapper>
+    </AlgoliaSearchWrapper>)
   );
 };
 
